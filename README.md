@@ -10,11 +10,15 @@ Run `node index.js`
 
 - mehtod = get
 - url = `http://localhost:3000/api/v1/heartrates/`  
-- description = This endpoint will return all heart rate data from sample json (clinical_metrics.json).  
+- description = This endpoint will return all heart rate data from sample json (clinical_metrics.json). 
+
+
 
 - method = get 
 - url = `http://localhost:3000/api/v1/heartrates/aggregate`
 - description = This endpoint is processing heart rate data from file. The API function is aggregating min and max heart rate. In response, you will get array of aggregated value for the given patient.
+
+
 
 - mehtod = get 
 - url = `http://localhost:3000/api/v1/heartrates/aggregate/store`
