@@ -1,4 +1,4 @@
-#Heart Rate Aggregator
+# Heart Rate Aggregator
 
 ## how to run the application
 
